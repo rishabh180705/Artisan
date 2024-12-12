@@ -1,0 +1,60 @@
+.choose-role {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: beige;
+  /* Cream background */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.choose-role h1 {
+  font-size: 2.5rem;
+  color: #3b0a45;
+  /* Dark red color for the heading */
+  margin-bottom: 20px;
+}
+
+.role-options {
+  display: flex;
+  gap: 20px;
+}
+
+.role-link {
+  text-decoration: none;
+  color: #fff;
+  /* White text for contrast */
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Light shadow for depth */
+}
+
+.role-link.admin {
+  background-color: burlywood;
+  /* Red color for Admin */
+}
+
+.role-link.artisan {
+  background-color: rgb(188, 122, 250);
+  /* Pinkish color for Artisan */
+}
+
+.role-link:hover {
+  transform: scale(1.1);
+}
+
+.role-link.admin:hover {
+  background-color: #e9402de8;
+  /* Darker red for hover effect */
+}
+
+.role-link.artisan:hover {
+  background-color: blueviolet;
+  /* Slightly lighter black on hover */
+}

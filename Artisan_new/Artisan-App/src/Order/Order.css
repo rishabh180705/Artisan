@@ -1,0 +1,81 @@
+.order-page {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  /* Changed to match the theme font */
+  background-color: beige;
+  /* Cream background */
+  min-height: 100vh;
+}
+
+/* Title of the page */
+h1 {
+  font-size: 2rem;
+  color: #3b0a45;
+  /* Dark red color for the heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table styling */
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-table th,
+.order-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.order-table th {
+  background-color: burlywood;
+  /* Red background for table headers */
+  color: white;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Action button styling */
+.action-btn {
+  background-color: burlywood;
+  /*Redbackgroundforbuttons*/
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: rgb(188, 122, 250);
+  /* Darker red on hover */
+}
+
+.action-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .order-table {
+    font-size: 14px;
+  }
+
+  .action-btn {
+    padding: 6px 12px;
+  }
+}

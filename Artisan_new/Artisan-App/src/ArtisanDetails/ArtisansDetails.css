@@ -1,0 +1,52 @@
+.artisan-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artisan-details-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .artisan-details-container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th, 
+  .orders-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .orders-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .orders-table td {
+    color: #555;
+  }
+  

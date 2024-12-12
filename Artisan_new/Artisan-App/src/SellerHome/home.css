@@ -1,0 +1,71 @@
+/* Home.css */
+
+/* Overall container styling */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Heading styling */
+  .home h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation container */
+  .navigation-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Link button styling */
+  .nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect for link buttons */
+  .nav-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Active link styling (optional) */
+  .nav-link:active {
+    background-color: #003d80;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .home h1 {
+      font-size: 2rem;
+    }
+  
+    .nav-link {
+      width: 150px;
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
